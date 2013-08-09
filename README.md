@@ -23,7 +23,7 @@ Getting Started
     2. Click the checkbox next to "Guest access is off" if guest access is not already allowed.
     3. Right-click on the guest access URL
 
-3. In $(document).ready(), invoke the plugin, replacing "YOUR_GUEST_ACCESS_URL" with the copied value from above:
+3. On document ready, invoke the plugin, replacing "YOUR_GUEST_ACCESS_URL" with the copied value from above:
 
         $(function() {
           $('.any-div-class').hipchat({
