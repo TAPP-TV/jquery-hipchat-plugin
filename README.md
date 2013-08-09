@@ -38,11 +38,9 @@ Getting Started
 Screenshots
 ------
 
-|            |              |
+| Chat button| Chat panel   |
 | ---------- | ------------ |
-| Chat button| ![Chat button](https://bitbucket.org/atlassianlabs/jquery-hipchat-plugin/raw/master/images/embed-button.png)
-| Chat panel | ![Chat panel](https://bitbucket.org/atlassianlabs/jquery-hipchat-plugin/raw/master/images/embed-chat.png)
-
+| ![Chat button](https://bitbucket.org/atlassianlabs/jquery-hipchat-plugin/raw/master/images/embed-button.png) | ![Chat panel](https://bitbucket.org/atlassianlabs/jquery-hipchat-plugin/raw/master/images/embed-chat.png)
 
 Options
 ------
