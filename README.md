@@ -35,6 +35,15 @@ Getting Started
 4. When you reload the page, it should now have a "Chat" button that, when clicked, allows
    visitors to chat in your room anonymously!
 
+Screenshots
+------
+
+|            |              |
+| ---------- | ------------ |
+| Chat button| ![Chat button](https://bitbucket.org/atlassianlabs/jquery-hipchat-plugin/raw/master/images/embed-button.png)
+| Chat panel | ![Chat panel](https://bitbucket.org/atlassianlabs/jquery-hipchat-plugin/raw/master/images/embed-chat.png)
+
+
 Options
 ------
 |            |              |
