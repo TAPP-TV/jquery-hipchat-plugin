@@ -14,9 +14,15 @@
   <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>  
   <script src="jquery.hipchat.js"></script>
   <script>
-    $('#container').hipchat({
-      url: 'https://dev-rbergman1.hipchat.com/gkncX3OpR',
-      timezone: 'MST'
+    $(function () {
+      $('#container').hipchat({
+        url: 'dev-rbergman1.hipchat.com/gkncX3OpR',
+        timezone: 'MST',
+        welcome: 'HipChat loves you.',
+        noframes: 'Boooo!',
+        width: '100%',
+        height: 600
+      });
     });
   </script>
 </body>
