@@ -14,9 +14,9 @@ Getting Started
 
 1. Load jQuery and the plugin:
 
-    <!-- use local jQuery if you prefer -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js" type="text/javascript"></script>
-    <script src="jquery.hipchat.js" type="text/javascript"></script>
+        <!-- use local jQuery if you prefer -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js" type="text/javascript"></script>
+        <script src="jquery.hipchat.js" type="text/javascript"></script>
 
 2. Find your HipChat room's guest access URL:
     1. Visit the HipChat room you want to allow guest access to
@@ -25,13 +25,12 @@ Getting Started
 
 3. In $(document).ready(), invoke the plugin, replacing "YOUR_GUEST_ACCESS_URL" with the copied value from above:
 
-     $(function() {
-       $('.any-div-class').hipchat({
-           url: "YOUR_GUEST_ACCESS_URL",
-           timezone: "PST"
-         };
-       });
-     });
+        $(function() {
+          $('.any-div-class').hipchat({
+            url: "YOUR_GUEST_ACCESS_URL",
+            timezone: "PST"
+          });
+        });
 
 4. When you reload the page, it should now have a window that allows visitors to chat in your room anonymously!
 
