@@ -38,7 +38,7 @@ Options
 ------
 
 | Name        | Description | Required  |
-| ----------- | ----------- | --------- |
+| :---------: | ----------- | :-------: |
 | url         | The guest access URL for the Hipchat room | Yes |
 | timezone    | The timezone for message time rendering.  Can be hardcoded or determined via something like [jstz](http://pellepim.bitbucket.org/jstz/)      |  Yes |
 | welcome     | The welcome message you want to show to visitors as the first message in the chat window | No |
