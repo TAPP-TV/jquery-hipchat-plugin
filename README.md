@@ -26,13 +26,14 @@ Getting Started
 3. On document ready, invoke the plugin, replacing "YOUR_GUEST_ACCESS_URL" with the copied value from above:
 
         $(function() {
-          $('.any-div-class').hipchat({
+          $('.any-div-class').hipChatPanel({
             url: "YOUR_GUEST_ACCESS_URL",
             timezone: "PST"
           });
         });
 
-4. When you reload the page, it should now have a window that allows visitors to chat in your room anonymously!
+4. When you reload the page, it should now have a "Chat" button that, when clicked, allows
+   visitors to chat in your room anonymously!
 
 Options
 ------
