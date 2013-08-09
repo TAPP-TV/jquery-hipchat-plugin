@@ -37,17 +37,12 @@ Getting Started
 Options
 ------
 
-`url`         The guest access URL for the Hipchat room. Required.
-
-`timezone`    The timezone for message time rendering.  Can be hardcoded or determined via something like [jstz](http://pellepim.bitbucket.org/jstz/). Required.
-
-`welcome`     The welcome message you want to show to visitors as the first message in the chat window. Optional.
-
-`noframes`    Content to include when iframes are disabled in the browser.  Optional.
-
-`width`       The width of the iframe, defaults to 100%. Optional.
-
-`height`      The height of the iframe. Optional.
+| `url`      | The guest access URL for the Hipchat room. Required.
+| `timezone` | The timezone for message time rendering.  Can be hardcoded or determined via something like [jstz](http://pellepim.bitbucket.org/jstz/). Required.
+| `welcome`  | The welcome message you want to show to visitors as the first message in the chat window. Optional.
+| `noframes` | Content to include when iframes are disabled in the browser.  Optional.
+| `width`    | The width of the iframe, defaults to 100%. Optional.
+| `height`   | The height of the iframe. Optional.
 
 License
 ------
