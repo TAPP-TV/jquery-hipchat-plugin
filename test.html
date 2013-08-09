@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Embedded HipChat jQuery Plugin Test</title>
+  <style>
+    body { background: #e7e7e7; }
+    #container iframe { border: 1px solid #ccc; }
+  </style>
+</head>
+<body>
+  <div id="container"></div>
+  <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>  
+  <script src="jquery.hipchat.js"></script>
+  <script>
+    $('#container').hipchat({
+      url: 'https://dev-rbergman1.hipchat.com/gkncX3OpR',
+      timezone: 'MST'
+    });
+  </script>
+</body>
+</html>
